@@ -31,7 +31,7 @@ STRIP			:= msp430-elf-strip
 #-------------------------------------------------------------------------------
 OPT_FLAGS			= -fverbose-asm
 ERRATA_FLAGS	= cpu4,cpu8,cpu11,cpu12,cpu13,cpu19
-SIZE_FLAGS		= -ffreestanding -nostartfiles -mtiny-printf -msmall
+SIZE_FLAGS		= -msmall
 STYLE_FLAGS		= -masm-hex -ffunction-sections -fdata-sections
 
 #-------------------------------------------------------------------------------
